@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://m365maps.com/</loc>
+    <loc>https://m365insights.org/</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/matrix.htm</loc>
+    <loc>https://m365insights.org/matrix.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/downloads.htm</loc>
+    <loc>https://m365insights.org/downloads.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/changes.htm</loc>
+    <loc>https://m365insights.org/changes.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/files/Related-Services.htm</loc>
+    <loc>https://m365insights.org/files/Related-Services.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/renames.htm</loc>
+    <loc>https://m365insights.org/renames.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/guide.htm</loc>
+    <loc>https://m365insights.org/guide.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://m365maps.com/compare.htm</loc>
+    <loc>https://m365insights.org/compare.htm</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>

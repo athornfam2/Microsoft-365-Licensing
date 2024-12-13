@@ -323,7 +323,7 @@ function exportClick() {
     item.style.color = '#FFFFFF';
   });
 
-  const html = '<html><head><base href="https://m365maps.com/"></head><body>' +
+  const html = '<html><head><base href="https://m365insights.org/"></head><body>' +
     table.outerHTML + '</body></html>';
 
   const blob = new Blob(['\ufeff', html], {

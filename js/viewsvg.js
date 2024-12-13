@@ -2225,7 +2225,7 @@ function loadSavedDiagram() {
   }
 
   Data.SavedDiagramTitle = data.Title;
-  document.title = `Saved Diagram: ${data.Title} | M365 Maps`;
+  document.title = `Saved Diagram: ${data.Title} | M365 Insights`;
 
   const svgXml = data.SvgXml.
     replace(/<!--.*-->/i, '').

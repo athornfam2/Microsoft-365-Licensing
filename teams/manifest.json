@@ -8,18 +8,18 @@
     "defaultLanguageTag": "en-au"
   },
   "name": {
-    "short": "M365 Maps",
+    "short": "M365 Insights",
     "full": ""
   },
   "developer": {
     "name": "Aaron Dinnage",
     "mpnId": "",
-    "websiteUrl": "https://m365maps.com",
-    "privacyUrl": "https://m365maps.com/guide.htm#privacy",
-    "termsOfUseUrl": "https://m365maps.com/guide.htm#terms"
+    "websiteUrl": "https://m365insights.org",
+    "privacyUrl": "https://m365insights.org/guide.htm#privacy",
+    "termsOfUseUrl": "https://m365insights.org/guide.htm#terms"
   },
   "description": {
-    "short": "m365maps.com - Microsoft 365 Licensing",
+    "short": "m365insights.org - Microsoft 365 Licensing",
     "full": "A collection of Microsoft 365 licensing diagrams to view in Teams or download as PDF, PNG, SVG, and Visio files. Covers Microsoft 365 Enterprise, Business, Education, and Frontline and also Office 365, Enterprise Mobility + Security, and Windows licensing."
   },
   "icons": {
@@ -31,8 +31,8 @@
     {
       "entityId": "m365maps.diagrams",
       "name": "Diagrams",
-      "contentUrl": "https://m365maps.com",
-      "websiteUrl": "https://m365maps.com",
+      "contentUrl": "https://m365insights.org",
+      "websiteUrl": "https://m365insights.org",
       "scopes": [
         "personal"
       ]
@@ -40,8 +40,8 @@
     {
       "entityId": "m365maps.matrix",
       "name": "Matrix",
-      "contentUrl": "https://m365maps.com/matrix.htm",
-      "websiteUrl": "https://m365maps.com/matrix.htm",
+      "contentUrl": "https://m365insights.org/matrix.htm",
+      "websiteUrl": "https://m365insights.org/matrix.htm",
       "scopes": [
         "personal"
       ]
@@ -49,8 +49,8 @@
     {
       "entityId": "m365maps.downloads",
       "name": "Downloads",
-      "contentUrl": "https://m365maps.com/downloads.htm",
-      "websiteUrl": "https://m365maps.com/downloads.htm",
+      "contentUrl": "https://m365insights.org/downloads.htm",
+      "websiteUrl": "https://m365insights.org/downloads.htm",
       "scopes": [
         "personal"
       ]
@@ -58,8 +58,8 @@
     {
       "entityId": "m365maps.changes",
       "name": "Change Log",
-      "contentUrl": "https://m365maps.com/changes.htm",
-      "websiteUrl": "https://m365maps.com/changes.htm",
+      "contentUrl": "https://m365insights.org/changes.htm",
+      "websiteUrl": "https://m365insights.org/changes.htm",
       "scopes": [
         "personal"
       ]
@@ -67,8 +67,8 @@
     {
       "entityId": "m365maps.related",
       "name": "Related",
-      "contentUrl": "https://m365maps.com/files/Related-Services.htm",
-      "websiteUrl": "https://m365maps.com/files/Related-Services.htm",
+      "contentUrl": "https://m365insights.org/files/Related-Services.htm",
+      "websiteUrl": "https://m365insights.org/files/Related-Services.htm",
       "scopes": [
         "personal"
       ]
@@ -76,8 +76,8 @@
     {
       "entityId": "m365maps.renames",
       "name": "Renames",
-      "contentUrl": "https://m365maps.com/renames.htm",
-      "websiteUrl": "https://m365maps.com/renames.htm",
+      "contentUrl": "https://m365insights.org/renames.htm",
+      "websiteUrl": "https://m365insights.org/renames.htm",
       "scopes": [
         "personal"
       ]
@@ -85,17 +85,17 @@
     {
       "entityId": "m365maps.guide",
       "name": "User Guide",
-      "contentUrl": "https://m365maps.com/guide.htm",
-      "websiteUrl": "https://m365maps.com/guide.htm",
+      "contentUrl": "https://m365insights.org/guide.htm",
+      "websiteUrl": "https://m365insights.org/guide.htm",
       "scopes": [
         "personal"
       ]
     },
     {
-      "entityId": "m365maps.compare",
+      "entityId": "m365insights.orgpare",
       "name": "Compare",
-      "contentUrl": "https://m365maps.com/compare.htm",
-      "websiteUrl": "https://m365maps.com/compare.htm",
+      "contentUrl": "https://m365insights.org/compare.htm",
+      "websiteUrl": "https://m365insights.org/compare.htm",
       "scopes": [
         "personal"
       ]
@@ -103,8 +103,8 @@
     {
       "entityId": "m365maps.saved",
       "name": "Saved",
-      "contentUrl": "https://m365maps.com/saved.htm",
-      "websiteUrl": "https://m365maps.com/saved.htm",
+      "contentUrl": "https://m365insights.org/saved.htm",
+      "websiteUrl": "https://m365insights.org/saved.htm",
       "scopes": [
         "personal"
       ]
@@ -112,8 +112,8 @@
     {
       "entityId": "m365maps.settings",
       "name": "Settings",
-      "contentUrl": "https://m365maps.com/settings.htm",
-      "websiteUrl": "https://m365maps.com/settings.htm",
+      "contentUrl": "https://m365insights.org/settings.htm",
+      "websiteUrl": "https://m365insights.org/settings.htm",
       "scopes": [
         "personal"
       ]

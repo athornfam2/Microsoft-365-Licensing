@@ -3,4 +3,4 @@ Disallow: /*.svg$
 Disallow: /CNAME
 Disallow: /README.md
 Disallow: /404.html
-Sitemap: https://m365maps.com/sitemap.xml
+Sitemap: https://m365insights.org/sitemap.xml
