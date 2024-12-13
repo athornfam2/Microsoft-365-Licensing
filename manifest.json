@@ -6,7 +6,7 @@
     "productivity",
     "utilities"
   ],
-  "description": "A collection of Microsoft 365 licensing diagrams by Aaron Dinnage",
+  "description": "A collection of Microsoft 365 Insights diagrams by Aaron Dinnage",
   "dir": "ltr",
   "display": "standalone",
   "icons": [
@@ -53,7 +53,7 @@
   "shortcuts": [
     {
       "name": "Home",
-      "description": "Microsoft 365 licensing",
+      "description": "Microsoft 365 Insights",
       "url": "/",
       "icons": [
         {

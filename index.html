@@ -12,18 +12,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="white" />
     <meta name="apple-mobile-web-app-title" content="M365 Insights" />
-    <meta name="description" content="A collection of Microsoft 365 licensing diagrams to view in browser or download as PDF, PNG, SVG, and Visio files." />
+    <meta name="description" content="A collection of Microsoft 365 Insights diagrams to view in browser or download as PDF, PNG, SVG, and Visio files." />
     <meta name="author" content="Aaron Dinnage" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@AaronDinnage" />
     <meta name="twitter:creator" content="@AaronDinnage" />
     <meta property="article:author" content="Aaron Dinnage" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Microsoft 365 Licensing" />
-    <meta property="og:description" content="A collection of Microsoft 365 licensing diagrams to view in browser or download as PDF, PNG, SVG, and Visio files." />
+    <meta property="og:title" content="Microsoft 365 Insights" />
+    <meta property="og:description" content="A collection of Microsoft 365 Insights diagrams to view in browser or download as PDF, PNG, SVG, and Visio files." />
     <meta property="og:site_name" content="M365 Insights" />
     <meta property="og:image" content="https://m365insights.org/media/summary_large_image.png" />
-    <meta property="og:image:alt" content="Microsoft 365 Licensing Diagrams by Aaron Dinnage https://m365insights.org/" />
+    <meta property="og:image:alt" content="Microsoft 365 Insights Diagrams by Aaron Dinnage https://m365insights.org/" />
     <meta property="og:url" content="https://m365insights.org/" />
     <link rel="canonical" href="https://m365insights.org/" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -37,9 +37,20 @@
     <script src="/js/index.min.js"></script>
     <title>Home | M365 Insights</title>
   </head>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-535MXSGPKW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-535MXSGPKW');
+</script>
+
   <body>
     <a class="skip-link" href="#diagrams">Skip to main content</a>
-    <h1>Microsoft 365 Licensing</h1>
+    <h1>Microsoft 365 Insights</h1>
     <h2>By Matthew Wolf &nbsp;&mdash;&nbsp; <strong>December, 2024</strong></h2>
 
     <noscript>WARNING: JavaScript disabled. m365insights.org will not work without JavaScript enabled.</noscript>
@@ -50,6 +61,49 @@
       <p>You can find more information on Internet Explorer end of support here: <a href="https://docs.microsoft.com/lifecycle/announcements/internet-explorer-11-support-end-dates" target="_blank" rel="noreferrer noopener">Link</a></p>
       <p>Internet Explorer users can access offline copies of m365insights.org diagrams from the <a href="/downloads.htm">Downloads</a> page. Please refer to the <a href="/changes.htm">Change log</a> for update deatils.</p>
     </div>
+
+  </br>
+
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Right-Aligned Navigation</title>
+      <style>
+        #nav-bar {
+          text-align: right; /* Align the links to the right */
+          font-family: Arial, sans-serif;
+          padding: 10px;
+          background-color: #f4f4f4;
+          border: 1px solid #ddd;
+          display: inline-block; /* Keep the nav bar compact */
+          width: 100%; /* Make it span the full page width for alignment */
+        }
+    
+        .nav-link {
+          text-decoration: none;
+          color: #333;
+          padding: 5px 10px;
+        }
+    
+        .nav-link:hover {
+          background-color: #ddd;
+          border-radius: 4px;
+        }
+      </style>
+    </head>
+    <body>
+      <div>
+        <nav id="nav-bar">
+          <a href="/credits.htm" class="nav-link">Product changes</a> |
+          <a href="/compare.htm" class="nav-link">Changelog</a> |
+          <a href="#header-6" class="nav-link">Pricing</a>
+        </nav>
+      </div>
+    </body>
+    </html>
+
+  </br>
 
     <div id="diagrams">
       <div class="divider"></div>
@@ -65,7 +119,6 @@
       <span class="diagram-header">Microsoft 365 Apps</span>
       <div class="diagram-set">
         <a href="/files/Microsoft-365-Apps-All.htm" class="diagram-link">All</a>
-        <a href="/files/Microsoft-365-Apps-Business.htm" class="diagram-link">Business</a>
         <a href="/files/Microsoft-365-Apps-Enterprise.htm" class="diagram-link">Enterprise</a>
       </div>
       <div class="divider"></div>
@@ -104,8 +157,25 @@
         <a href="/files/Microsoft-365-Enterprise-All.htm" class="diagram-link">Simple</a>
         <a href="/files/Microsoft-365-Enterprise-Venn.htm" class="diagram-link">Venn</a>
         <a href="/files/Microsoft-365-Enterprise-Landscape.htm" class="diagram-link">Landscape</a>
-        <a href="/files/Microsoft-365-E3.htm" class="diagram-link">E3</a>
-        <a href="/files/Microsoft-365-E5.htm" class="diagram-link">E5</a>
+        <a href="/files/Microsoft-365-E3.htm" class="diagram-link">E3 (no Teams)</a>
+        <a href="/files/Microsoft-365-E5.htm" class="diagram-link">E5 (no Teams)</a>
+        <a href="/files/Office-365-F3.htm" class="diagram-link">F3</a>
+      </div>
+      <div class="divider"></div>
+      <span class="diagram-header">Microsoft 365 Non-Profit</span>
+      <div class="diagram-set">
+        <a href="/files/Microsoft-365-Education-All.htm" class="diagram-link">All</a>
+        <a href="/files/Microsoft-365-Education-A1-(Legacy).htm" class="diagram-link">Basic</a>
+        <a href="/files/Microsoft-365-Education-A1-for-Devices.htm" class="diagram-link">Standard</a>
+        <a href="/files/Microsoft-365-Education-A3.htm" class="diagram-link">Premium</a>
+      </div>
+      <div class="divider"></div>
+      <span class="diagram-header">Microsoft 365 Large Non-Profit </span>
+      <div class="diagram-set">
+        <a href="/files/Microsoft-365-Education-All.htm" class="diagram-link">All</a>
+        <a href="/files/Microsoft-365-Education-A1-(Legacy).htm" class="diagram-link">Basic</a>
+        <a href="/files/Microsoft-365-Education-A1-for-Devices.htm" class="diagram-link">Standard</a>
+        <a href="/files/Microsoft-365-Education-A3.htm" class="diagram-link">Premium</a>
       </div>
       <div class="divider"></div>
       <span class="diagram-header">Microsoft 365 Frontline</span>
@@ -113,7 +183,16 @@
         <a href="/files/Microsoft-365-Frontline-All.htm" class="diagram-link">All</a>
         <a href="/files/Microsoft-365-F1.htm" class="diagram-link">F1</a>
         <a href="/files/Microsoft-365-F3.htm" class="diagram-link">F3</a>
-        <a href="/files/Microsoft-365-F5.htm" class="diagram-link">F5</a>
+        <a href="/files/Microsoft-365-F5.htm" class="diagram-link">F1 (no Teams)</a>
+        <a href="/files/Microsoft-365-F5.htm" class="diagram-link">F3 (no Teams)</a>
+      </div>
+      <div class="divider"></div>
+      <span class="diagram-header">Microsoft 365 Government</span>
+      <div class="diagram-set">
+        <a href="/files/Office-365-Enterprise-All.htm" class="diagram-link">All</a>
+        <a href="/files/Office-365-Enterprise-Simple.htm" class="diagram-link">Simple</a>
+        <a href="/files/Office-365-E1.htm" class="diagram-link">G3</a>
+        <a href="/files/Office-365-E3.htm" class="diagram-link">G5</a>
       </div>
       <div class="divider"></div>
       <span class="diagram-header">Microsoft Defender</span>
@@ -122,6 +201,13 @@
         <a href="/files/Microsoft-Defender-for-Endpoint.htm" class="diagram-link">Endpoint</a>
         <a href="/files/Microsoft-Defender-for-Office-365.htm" class="diagram-link">Office 365</a>
         <a href="/files/Microsoft-Defender-Vulnerability-Management.htm" class="diagram-link new" title="Vulnerability Management">Vuln Mgmt</a>
+      </div>
+      <div class="divider"></div>
+      <span class="diagram-header">Microsoft Copilot</span>
+      <div class="diagram-set">
+        <a href="/files/Microsoft-Defender-for-Business.htm" class="diagram-link">Business</a>
+        <a href="/files/Microsoft-Defender-for-Endpoint.htm" class="diagram-link">Enterprise</a>
+        <a href="/files/Microsoft-Defender-for-Office-365.htm" class="diagram-link">Personal</a>
       </div>
       <div class="divider"></div>
       <span class="diagram-header">Microsoft Project and Visio</span>
@@ -148,10 +234,17 @@
       <div class="diagram-set">
         <a href="/files/Office-365-Enterprise-All.htm" class="diagram-link">All</a>
         <a href="/files/Office-365-Enterprise-Simple.htm" class="diagram-link">Simple</a>
-        <a href="/files/Office-365-E1.htm" class="diagram-link">E1</a>
-        <a href="/files/Office-365-E3.htm" class="diagram-link">E3</a>
-        <a href="/files/Office-365-E5.htm" class="diagram-link">E5</a>
-        <a href="/files/Office-365-F3.htm" class="diagram-link">F3</a>
+        <a href="/files/Office-365-E1.htm" class="diagram-link">E1 (no Teams)</a>
+        <a href="/files/Office-365-E3.htm" class="diagram-link">E3 (no Teams)</a>
+        <a href="/files/Office-365-E5.htm" class="diagram-link">E5 (no Teams)</a>
+      </div>
+      <div class="divider"></div>
+      <span class="diagram-header">Office 365 Government</span>
+      <div class="diagram-set">
+        <a href="/files/Office-365-Enterprise-All.htm" class="diagram-link">All</a>
+        <a href="/files/Office-365-Enterprise-Simple.htm" class="diagram-link">Simple</a>
+        <a href="/files/Office-365-E1.htm" class="diagram-link">G3</a>
+        <a href="/files/Office-365-E3.htm" class="diagram-link">G5</a>
       </div>
       <div class="divider"></div>
       <span class="diagram-header">Windows</span>
@@ -174,7 +267,7 @@
     </div>
 
     <ul id="footer">
-      <li><a href="/renames.htm" class="renames">Product name changes</a></li>
+ <!--     <li><a href="/renames.htm" class="renames">Product name changes</a></li>
       <li><a href="/compare.htm" class="compare">Compare diagrams</a></li>
       <li><a href="/saved.htm" class="saved">Saved diagrams</a></li>
       <li><a href="/files/Related-Services.htm" class="related new">Related services</a></li>
@@ -183,7 +276,7 @@
       <li><a href="/guide.htm" class="guide">User guide</a></li>
       <li><a href="/downloads.htm" class="downloads">Downloads</a></li>
       <li><a href="/settings.htm" class="settings">Settings</a></li>
-    </ul>
+    </ul> -- >
 
     <!-- <p>Posters now available at the <a href="https://www.etsy.com/shop/m365maps" target="_blank">m365maps Etsy store</a>!</p> -->
 

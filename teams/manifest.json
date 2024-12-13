@@ -19,8 +19,8 @@
     "termsOfUseUrl": "https://m365insights.org/guide.htm#terms"
   },
   "description": {
-    "short": "m365insights.org - Microsoft 365 Licensing",
-    "full": "A collection of Microsoft 365 licensing diagrams to view in Teams or download as PDF, PNG, SVG, and Visio files. Covers Microsoft 365 Enterprise, Business, Education, and Frontline and also Office 365, Enterprise Mobility + Security, and Windows licensing."
+    "short": "m365insights.org - Microsoft 365 Insights",
+    "full": "A collection of Microsoft 365 Insights diagrams to view in Teams or download as PDF, PNG, SVG, and Visio files. Covers Microsoft 365 Enterprise, Business, Education, and Frontline and also Office 365, Enterprise Mobility + Security, and Windows licensing."
   },
   "icons": {
     "outline": "outline.png",
